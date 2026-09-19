@@ -18,13 +18,14 @@
   <img src="https://img.shields.io/badge/MongoDB-0b0d11?style=flat-square&logo=mongodb&logoColor=47A248" alt="MongoDB" />
   <img src="https://img.shields.io/badge/RabbitMQ-0b0d11?style=flat-square&logo=rabbitmq&logoColor=FF6600" alt="RabbitMQ" />
   <img src="https://img.shields.io/badge/Docker-0b0d11?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-0b0d11?style=flat-square&logo=githubactions&logoColor=2088FF" alt="GitHub Actions" />
   <img src="https://img.shields.io/badge/Playwright-0b0d11?style=flat-square&logo=playwright&logoColor=2EAD33" alt="Playwright" />
 </p>
 
 ---
 
 <p align="center">
-  <img src="assets/architecture.png" alt="Architecture: clients, gateway, IAM, domain services, queues, data" width="900" />
+  <img src="assets/architecture.png" alt="Runtime architecture and delivery pipeline" width="900" />
 </p>
 
 ---
@@ -55,8 +56,9 @@ The backend should stay **readable** after the product ships.
 - **Gateway** — one entry for clients; services stay internal
 - **IAM** — identity is its own context, not mixed into every feature
 - **Adapters** — domain rules do not talk to the database driver
-- **Events** — queues for async and cross-service work
-- **Contracts** — REST, validation, consistent errors, E2E on real environments
+- **Events** — queues for jobs, notifications, and model calls
+- **Delivery** — CI on PR, image build, recette, then prod — not laptop-to-prod
+- **AI in the system** — LLM as a worker: auth at the edge, timeouts, fallbacks
 
     </td>
   </tr>
@@ -74,6 +76,8 @@ The backend should stay **readable** after the product ships.
 | Identity | Dedicated IAM · token-based access |
 | Persistence | Repository · migrations · SQL + document where each fits |
 | Coupling | Message queue instead of synchronous chains |
+| AI | Model behind the queue · not mixed into every controller · fallback when it fails |
+| Delivery | PR checks → image → recette → prod · secrets out of git |
 | Quality | Playwright against recette / dev — not only local happy paths |
 
 I do not label work DDD, hexagonal, or CQRS unless that was the real architecture.
