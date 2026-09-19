@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/header.png" alt="Mohamed Ali Trabelsi — Fullstack engineer" width="900" />
+  <img src="https://github.com/MohamedAliTrabelsiSE/MohamedAliTrabelsiSE/raw/main/assets/header.png?v=2" alt="Mohamed Ali Trabelsi — Fullstack engineer" width="900" />
 </p>
 
 <p align="center">
@@ -25,7 +25,7 @@
 ---
 
 <p align="center">
-  <img src="assets/architecture.png" alt="Runtime architecture and delivery pipeline" width="900" />
+  <img src="https://github.com/MohamedAliTrabelsiSE/MohamedAliTrabelsiSE/raw/main/assets/runtime-and-delivery.png?v=2" alt="Runtime architecture and delivery pipeline" width="900" />
 </p>
 
 ---
