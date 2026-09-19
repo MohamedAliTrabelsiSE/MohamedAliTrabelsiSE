@@ -1,49 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="420" viewBox="0 0 1100 420" role="img" aria-labelledby="archTitle">
-  <title id="archTitle">Clients to gateway to services to data</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="420" viewBox="0 0 1100 420" role="img">
   <rect width="1100" height="420" rx="20" fill="#0b0d11"/>
   <rect x="1.25" y="1.25" width="1097.5" height="417.5" rx="19" fill="none" stroke="#2a3140" stroke-width="1.5"/>
-
-  <g font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
     <text x="48" y="48" fill="#6ee7b7" font-size="12" font-weight="600" letter-spacing="2.4">ARCHITECTURE</text>
     <text x="48" y="74" fill="#9aa3b2" font-size="14">Same care from the screen to the queue.</text>
-
-    <!-- Clients -->
     <rect x="48" y="104" width="230" height="72" rx="12" fill="#161b24" stroke="#2d3544"/>
     <text x="163" y="134" text-anchor="middle" fill="#9aa3b2" font-size="11" letter-spacing="1.6">CLIENTS</text>
-    <text x="163" y="158" text-anchor="middle" fill="#f4f7fb" font-size="16" font-weight="600">Web  ·  Mobile</text>
-
+    <text x="163" y="158" text-anchor="middle" fill="#f4f7fb" font-size="16" font-weight="600">Web / Mobile</text>
     <rect x="318" y="104" width="230" height="72" rx="12" fill="#161b24" stroke="#2d3544"/>
     <text x="433" y="134" text-anchor="middle" fill="#9aa3b2" font-size="11" letter-spacing="1.6">EDGE</text>
-    <text x="433" y="158" text-anchor="middle" fill="#f4f7fb" font-size="16" font-weight="600">Gateway  /  BFF</text>
-
+    <text x="433" y="158" text-anchor="middle" fill="#f4f7fb" font-size="16" font-weight="600">Gateway / BFF</text>
     <path d="M278 140H318" stroke="#6ee7b7" stroke-width="2"/>
     <path d="M310 134L318 140L310 146" fill="none" stroke="#6ee7b7" stroke-width="2"/>
-
-    <!-- Services -->
     <rect x="588" y="88" width="200" height="52" rx="10" fill="#161b24" stroke="#2d3544"/>
     <text x="688" y="120" text-anchor="middle" fill="#f4f7fb" font-size="14" font-weight="600">IAM</text>
-
     <rect x="588" y="150" width="200" height="52" rx="10" fill="#161b24" stroke="#2d3544"/>
     <text x="688" y="182" text-anchor="middle" fill="#f4f7fb" font-size="14" font-weight="600">Domain services</text>
-
     <rect x="588" y="212" width="200" height="52" rx="10" fill="#161b24" stroke="#2d3544"/>
-    <text x="688" y="244" text-anchor="middle" fill="#f4f7fb" font-size="14" font-weight="600">Workers  ·  queues</text>
-
+    <text x="688" y="244" text-anchor="middle" fill="#f4f7fb" font-size="14" font-weight="600">Workers / queues</text>
     <path d="M548 140H588" stroke="#6ee7b7" stroke-width="2"/>
     <path d="M580 134L588 140L580 146" fill="none" stroke="#6ee7b7" stroke-width="2"/>
     <path d="M568 140V238H588" fill="none" stroke="#2d3544" stroke-width="2"/>
-
-    <!-- Data -->
     <rect x="828" y="136" width="224" height="88" rx="12" fill="#12201c" stroke="#2f5a4a"/>
     <text x="940" y="172" text-anchor="middle" fill="#9aa3b2" font-size="11" letter-spacing="1.6">DATA</text>
-    <text x="940" y="198" text-anchor="middle" fill="#f4f7fb" font-size="16" font-weight="600">SQL  ·  Document</text>
-
+    <text x="940" y="198" text-anchor="middle" fill="#f4f7fb" font-size="16" font-weight="600">SQL / Document</text>
     <path d="M788 176H828" stroke="#6ee7b7" stroke-width="2"/>
     <path d="M820 170L828 176L820 182" fill="none" stroke="#6ee7b7" stroke-width="2"/>
-
-    <!-- Principles -->
     <text x="48" y="300" fill="#6ee7b7" font-size="12" font-weight="600" letter-spacing="2.4">PRINCIPLES</text>
-    <text x="48" y="332" fill="#d5dbe6" font-size="15">Clients sit on a design system  not one-off pages.</text>
+    <text x="48" y="332" fill="#d5dbe6" font-size="15">Clients sit on a design system - not one-off pages.</text>
     <text x="48" y="358" fill="#d5dbe6" font-size="15">The edge authenticates and aggregates. Services stay internal.</text>
     <text x="48" y="384" fill="#d5dbe6" font-size="15">Async work goes on a broker when the user should not wait.</text>
   </g>

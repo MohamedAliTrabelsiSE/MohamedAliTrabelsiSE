@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/header.svg" alt="Mohamed Ali Trabelsi — Fullstack engineer" width="900" />
+  <img src="assets/header.png" alt="Mohamed Ali Trabelsi — Fullstack engineer" width="900" />
 </p>
 
 <p align="center">
@@ -24,7 +24,7 @@
 ---
 
 <p align="center">
-  <img src="assets/architecture.svg" alt="Architecture: clients, gateway, IAM, domain services, queues, data" width="900" />
+  <img src="assets/architecture.png" alt="Architecture: clients, gateway, IAM, domain services, queues, data" width="900" />
 </p>
 
 ---
