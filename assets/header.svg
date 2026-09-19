@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="340" viewBox="0 0 1100 340" role="img" aria-labelledby="title desc">
+  <title id="title">Mohamed Ali Trabelsi  Fullstack engineer</title>
+  <desc id="desc">Product UI, APIs, and distributed systems</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0d11"/>
+      <stop offset="100%" stop-color="#12151c"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#1a1f28" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1100" height="340" rx="20" fill="url(#bg)"/>
+  <rect width="1100" height="340" rx="20" fill="url(#grid)" opacity="0.55"/>
+  <rect x="1.25" y="1.25" width="1097.5" height="337.5" rx="19" fill="none" stroke="#2a3140" stroke-width="1.5"/>
+
+  <rect x="56" y="0" width="4" height="340" fill="#6ee7b7"/>
+
+  <text x="88" y="92" fill="#6ee7b7" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="3.2">FULLSTACK ENGINEER</text>
+
+  <text x="88" y="156" fill="#f4f7fb" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="42" font-weight="700">Mohamed Ali Trabelsi</text>
+
+  <text x="88" y="198" fill="#9aa3b2" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="18">I design product interfaces and the systems behind them.</text>
+
+  <g font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600">
+    <rect x="88" y="236" width="128" height="36" rx="18" fill="#161b24" stroke="#2d3544"/>
+    <text x="152" y="259" text-anchor="middle" fill="#e8eef6">Product UI</text>
+
+    <rect x="228" y="236" width="86" height="36" rx="18" fill="#161b24" stroke="#2d3544"/>
+    <text x="271" y="259" text-anchor="middle" fill="#e8eef6">APIs</text>
+
+    <rect x="326" y="236" width="188" height="36" rx="18" fill="#161b24" stroke="#2d3544"/>
+    <text x="420" y="259" text-anchor="middle" fill="#e8eef6">Distributed systems</text>
+  </g>
+</svg>
